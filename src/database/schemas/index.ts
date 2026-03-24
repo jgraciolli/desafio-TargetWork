@@ -1,5 +1,7 @@
+import * as categoriaProdutoDBSchema from "./categoriaProdutoDBSchema";
 import * as clienteDBSchema from "./clienteDBSchema";
 
 export const schema = {
-    ...clienteDBSchema
-}
+  ...clienteDBSchema,
+  ...categoriaProdutoDBSchema,
+};
